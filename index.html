@@ -11,7 +11,7 @@
 
 <body class="bg-gray-100">
     <div class="grid lg:grid-cols-2">
-        <div class="px-5 py-5 space-y-5 mx-auto max-w-md">
+        <div class="px-5 py-5 space-y-5 mx-auto max-w-md lg:max-w-full">
             <h1 class="text-3xl font-semibold text-purple-400">iPad Air</h1>
             <img src="./images/tablet.jpg" alt="tablet stock image" class="rounded-lg h-96 shadow-lg lg:hidden sm:block" />
             <h3 class="text-xl font-semibold sm:text-2xl md:text-xl">Your next computer is not a computer.</h3>
@@ -20,9 +20,14 @@
                 It has pro cameras that can transform reality.
                 And you can use it with touch, pencil, keyboard, and now trackpad.
                 It’s the new iPad Pro.</p>
+            <p>iPad mini features a thin, light, and portable design that makes it the perfect on-the-go companion. At 0.66 pound and 6.1 mm thin,1 it’s easy to carry with you in one hand or take out of a pocket or bag whenever inspiration strikes.</p>
+
+            <div>
+                <button class="rounded-md shadow-sm bg-indigo-500 hover:bg-indigo-900  px-3 py-3 text-white font-normal uppercase tracking-wide text-sm" >More Information</button>
+            </div>
         </div>
-        <div class="hidden lg:block">
-            <img src="./images/tablet.jpg" alt="tablet stock image" class="rounded-lg h-96 shadow-lg" />
+        <div class="hidden lg:block relative mx-5 my-5">
+            <img src="./images/tablet.jpg" alt="tablet stock image" class="rounded-lg h-full shadow-lg absolute inset-0 w-full object-cover object-fit" />
         </div>
     </div>
 
